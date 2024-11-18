@@ -5,7 +5,7 @@ import androidx.room.Insert
 import androidx.room.Query
 
 @Dao
-interface taskDao{
+interface TaskDao{
 
     @Insert
     suspend fun insertTask(task: Task)

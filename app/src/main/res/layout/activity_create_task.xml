@@ -25,7 +25,7 @@
         android:layout_height="48dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="56dp"
-        android:hint="@string/et_titleTask"
+        android:hint="@string/et_titulo"
         android:inputType="text"
         android:textColorHint="@color/darker_gray"
         app:layout_constraintStart_toStartOf="parent"

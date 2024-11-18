@@ -10,8 +10,13 @@
     <string name="tv_registro">Registro</string>
     <string name="tv_appTitle">Taskify</string>
     <string name="tv_createTask">Crear tarea...</string>
-    <string name="et_titleTask">Titulo</string>
+    <string name="et_titulo">Titulo</string>
     <string name="et_desciption">Descripción</string>
+    <string name="btn_editar">Editar</string>
+    <string name="btn_borrar">Borrar</string>
+    <string name="tv_categoria">Categoria:</string>
+    <string name="tv_fecha1">Fecha de Inicio</string>
+    <string name="tv_fecha2">Fecha de finalización</string>
 
     <string-array name="spinner_options">
         <item>Estudio</item>
