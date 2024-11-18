@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Taskify</string>
+    <string name="tv_email">Correo Electronico</string>
+    <string name="hint_username">correo electronico</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="btn_login">Iniciar Sesión</string>
+    <string name="btn_register">registrarse</string>
+    <string name="et_password">constraseña</string>
+    <string name="et_password2">confirmar constraseña</string>
+    <string name="tv_registro">Registro</string>
+    <string name="tv_appTitle">Taskify</string>
+    <string name="tv_createTask">Crear tarea...</string>
+    <string name="et_titleTask">Titulo</string>
+    <string name="et_desciption">Descripción</string>
+
+    <string-array name="spinner_options">
+        <item>Estudio</item>
+        <item>Trabajo</item>
+        <item>Personal</item>
+    </string-array>
+
+</resources>
