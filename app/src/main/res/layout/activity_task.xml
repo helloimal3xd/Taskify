@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_menu">
 
     <TextView
         android:id="@+id/textView3"
@@ -25,6 +26,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="28dp"
         android:text="@string/et_titulo"
+        android:textColor="@color/white"
         android:textSize="35sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,6 +39,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="36dp"
         android:text="@string/et_desciption"
+        android:textColor="@color/white"
         android:textSize="25sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_at_titulo" />
@@ -46,6 +49,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
+        android:textColor="@color/white"
         android:layout_marginTop="28dp"
         android:text="categoria"
         android:textSize="20sp"
@@ -58,6 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginTop="16dp"
+        android:textColor="@color/white"
         android:text="fecha 1"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,6 +73,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="120dp"
+        android:textColor="@color/white"
         android:layout_marginTop="16dp"
         android:text="fecha2"
         android:textSize="20sp"
@@ -76,22 +82,22 @@
 
     <Button
         android:id="@+id/btn_editar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="134dp"
+        android:layout_height="50dp"
         android:layout_marginEnd="48dp"
         android:layout_marginBottom="32dp"
-        android:backgroundTint="@color/teal_700"
+        android:background="@drawable/rounded_button"
         android:text="@string/btn_editar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btn_borrar" />
 
     <Button
         android:id="@+id/btn_borrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="119dp"
+        android:layout_height="48dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="32dp"
-        android:backgroundTint="@color/teal_700"
+        android:background="@drawable/rounded_button_alt"
         android:text="@string/btn_borrar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -102,6 +108,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginTop="28dp"
+        android:textColor="@color/white"
         android:text="Categoria:"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -113,6 +120,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginTop="28dp"
+        android:textColor="@color/white"
         android:text="@string/tv_fecha1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
@@ -121,6 +129,7 @@
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:layout_marginStart="120dp"
         android:layout_marginTop="28dp"
         android:text="@string/tv_fecha2"

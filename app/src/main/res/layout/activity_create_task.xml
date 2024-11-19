@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_task">
 
 
     <TextView
@@ -21,24 +22,29 @@
 
     <EditText
         android:id="@+id/et_titulo"
-        android:layout_width="223dp"
-        android:layout_height="48dp"
+        android:layout_width="246dp"
+        android:layout_height="71dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="56dp"
         android:hint="@string/et_titulo"
         android:inputType="text"
-        android:textColorHint="@color/darker_gray"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
         android:id="@+id/et_descipcion"
-        android:layout_width="324dp"
-        android:layout_height="44dp"
+        android:layout_width="331dp"
+        android:layout_height="54dp"
         android:layout_marginTop="40dp"
         android:hint="@string/et_desciption"
         android:inputType="text"
-        android:textColorHint="@color/darker_gray"
+        android:textColorHint="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.405"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,6 +55,7 @@
         android:layout_width="320dp"
         android:layout_height="40dp"
         android:layout_marginTop="44dp"
+        android:outlineAmbientShadowColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         android:entries="@array/spinner_options"
         app:layout_constraintHorizontal_bias="0.383"
@@ -82,12 +89,12 @@
 
     <Button
         android:id="@+id/btn_guardar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="108dp"
+        android:layout_height="50dp"
         android:layout_marginEnd="52dp"
         android:layout_marginBottom="60dp"
+        android:background="@drawable/rounded_button"
         android:text="Guardar"
-        android:backgroundTint="@color/teal_700"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
