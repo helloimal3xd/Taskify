@@ -11,7 +11,7 @@ import com.proyecto.loginapp.Dao.Task
 
 class TaskAdapter(
     private val context: Context,
-    private val taskList: List<Task>
+    val taskList: MutableList<Task> // Cambiado a MutableList
 ) : RecyclerView.Adapter<TaskAdapter.TaskViewHolder>() {
 
     inner class TaskViewHolder(view: View) : RecyclerView.ViewHolder(view) {
@@ -48,4 +48,9 @@ class TaskAdapter(
     }
 
     override fun getItemCount(): Int = taskList.size
+
+    fun addTask(task: Task) {
+        taskList.add(task)
+        notifyItemInserted(taskList.size - 1)
+    }
 }

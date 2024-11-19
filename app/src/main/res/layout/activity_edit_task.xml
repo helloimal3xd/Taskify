@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="@string/tv_createTask"
+        android:text="@string/tv_editar_tarea"
         android:textColor="@color/teal_200"
         android:textSize="40sp"
         android:textStyle="bold"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/et_titulo"
+        android:id="@+id/et_et_titulo"
         android:layout_width="223dp"
         android:layout_height="48dp"
         android:layout_marginStart="28dp"
@@ -32,7 +32,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
-        android:id="@+id/et_descipcion"
+        android:id="@+id/et_et_descipcion"
         android:layout_width="324dp"
         android:layout_height="44dp"
         android:layout_marginTop="40dp"
@@ -42,10 +42,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.405"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_titulo" />
+        app:layout_constraintTop_toBottomOf="@+id/et_et_titulo" />
 
     <Spinner
-        android:id="@+id/spinner_categoria"
+        android:id="@+id/et_spinner_categoria"
         android:layout_width="320dp"
         android:layout_height="40dp"
         android:layout_marginTop="44dp"
@@ -53,10 +53,10 @@
         android:entries="@array/spinner_options"
         app:layout_constraintHorizontal_bias="0.383"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_descipcion" />
+        app:layout_constraintTop_toBottomOf="@+id/et_et_descipcion" />
 
     <EditText
-        android:id="@+id/et_fecha_inicio"
+        android:id="@+id/et_et_fecha_inicio"
         android:layout_width="320dp"
         android:layout_height="48dp"
         android:layout_marginTop="40dp"
@@ -65,10 +65,10 @@
         android:background="@android:drawable/editbox_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner_categoria" />
+        app:layout_constraintTop_toBottomOf="@+id/et_spinner_categoria" />
 
     <EditText
-        android:id="@+id/et_fecha_fin"
+        android:id="@+id/et_et_fecha_fin"
         android:layout_width="320dp"
         android:layout_height="48dp"
         android:layout_marginTop="36dp"
@@ -78,10 +78,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_fecha_inicio" />
+        app:layout_constraintTop_toBottomOf="@+id/et_et_fecha_inicio" />
 
     <Button
-        android:id="@+id/btn_guardar"
+        android:id="@+id/btn_et_guardar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="52dp"

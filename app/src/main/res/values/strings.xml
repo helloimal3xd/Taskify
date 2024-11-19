@@ -17,6 +17,7 @@
     <string name="tv_categoria">Categoria:</string>
     <string name="tv_fecha1">Fecha de Inicio</string>
     <string name="tv_fecha2">Fecha de finalización</string>
+    <string name="tv_editar_tarea">Editar Tarea...</string>
 
     <string-array name="spinner_options">
         <item>Estudio</item>
